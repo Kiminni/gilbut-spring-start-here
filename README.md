@@ -1,1 +1,1 @@
-# gilbut-spring-start-here
+# 스프링 교과서 예제 파일

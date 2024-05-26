@@ -24,10 +24,18 @@ public class ProjectConfig {
   }
 
   @Bean
+  public Person person(Parrot parrot2) {
+    Person p = new Person();
+    p.setName("Ella");
+    p.setParrot(parrot2);
+    return p;
+  }
+  /*
   public Person person(@Qualifier("parrot2") Parrot parrot) {
     Person p = new Person();
     p.setName("Ella");
     p.setParrot(parrot);
     return p;
   }
+  */
 }
