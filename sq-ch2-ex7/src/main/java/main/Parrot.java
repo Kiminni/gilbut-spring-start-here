@@ -9,7 +9,8 @@ public class Parrot {
 
     private String name;
 
-    @PostConstruct
+    @PostConstruct // 빈을 생성 후 하는 행동을 정의하기 위해 사용
+
     public void init() {
         this.name = "Kiki";
     }

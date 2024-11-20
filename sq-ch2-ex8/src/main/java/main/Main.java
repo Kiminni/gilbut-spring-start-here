@@ -16,11 +16,13 @@ public class Main {
         Supplier<Parrot> parrotSupplier = () -> x;
 
         //context.registerBean("parrot1", Parrot.class, parrotSupplier);
-
+        // beanName, beanType, supplier, customizer을 인자로 받는다.
         context.registerBean("parrot1",
                 Parrot.class,
                 parrotSupplier,
                 bc -> bc.setPrimary(true));
+
+
 
         Parrot p = context.getBean(Parrot.class);
 
