@@ -9,7 +9,7 @@ public class Person {
 
   private final Parrot parrot;
 
-  public Person(Parrot parrot2) {
+  public Person(Parrot parrot2) { // parrot2와 이름 일치
     this.parrot = parrot2;
   }
 

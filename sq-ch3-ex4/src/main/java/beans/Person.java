@@ -27,3 +27,8 @@ public class Person {
     this.parrot = parrot;
   }
 }
+
+/*
+1. @Component는 Person 타입의 빈을 생성하고 추가하도록 지시
+2. 스프링 컨텍스트에서 빈을 가져와 @Autowired 애너테이션된 필드 값에 설정하도록 지시
+*/

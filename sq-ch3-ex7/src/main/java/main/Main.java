@@ -13,5 +13,7 @@ public class Main {
 
     System.out.println("Person's name: " + p.getName());
     System.out.println("Person's parrot: " + p.getParrot());
+
+    //순환 참조 발생
   }
 }
